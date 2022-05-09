@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "loanApplicationExists",
+        "transactionLabel": "A test loanApplicationExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createLoanApplication",
+        "transactionLabel": "A test createLoanApplication transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readLoanApplication",
+        "transactionLabel": "A test readLoanApplication transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateLoanApplication",
+        "transactionLabel": "A test updateLoanApplication transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteLoanApplication",
+        "transactionLabel": "A test deleteLoanApplication transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]
