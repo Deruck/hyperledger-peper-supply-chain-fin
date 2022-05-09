@@ -168,7 +168,7 @@ export class LoanApplicationContract extends Contract {
 
     @Transaction(false)
     public async ETP_queryAllApplication(ctx: Context): Promise<string> {
-        await this._checkIdentity(ctx, participantIdentity.platform);
+        await this._checkIdentity(ctx, participantIdentity.enterprise);
         const startKey = '';
         const endKey = '';
         const allResults = [];
@@ -316,7 +316,7 @@ export class LoanApplicationContract extends Contract {
 
     @Transaction(false)
     public async BNK_queryAllApplication(ctx: Context): Promise<string> {
-        await this._checkIdentity(ctx, participantIdentity.platform);
+        await this._checkIdentity(ctx, participantIdentity.bank);
         const startKey = '';
         const endKey = '';
         const allResults = [];
@@ -390,7 +390,7 @@ export class LoanApplicationContract extends Contract {
 
     @Transaction(false)
     public async WHS_queryAllApplication(ctx: Context): Promise<string> {
-        await this._checkIdentity(ctx, participantIdentity.platform);
+        await this._checkIdentity(ctx, participantIdentity.warehouse);
         const startKey = '';
         const endKey = '';
         const allResults = [];
