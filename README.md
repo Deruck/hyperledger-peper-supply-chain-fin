@@ -1,3 +1,5 @@
+>设计与论文见[paper](./paper.pdf)
+
 # 1 登录服务器
 
 因为我们的应用的交互是基于VSCode的IBM Blockchain Platform插件，所以需要使用VSCode登录服务器进行操作。
